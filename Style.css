@@ -1,0 +1,304 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(178, 153, 121);
+}
+.navbar{
+    background-color: rgb(74, 154, 156);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+     height: 70px;
+     border-top: 10px solid brown;
+     border-bottom: 10px solid brown;
+     padding: 10px;
+}
+.nav{
+    display: flex;
+    list-style: none;
+
+}
+.nav li{
+    margin-right: 40px;
+}
+.nav a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+}
+.logo{
+    /* margin-top: 80px;
+    margin-left: 150px;
+    margin-bottom: 10px; */
+    margin: 70px 0px 10px 150px;
+
+}
+.special-burger{
+    display: block;
+    margin: auto;
+    padding: 0px 250px;
+}
+.retro-content h1{
+    color: rgb(35, 126, 129);
+    font-family: cursive;
+    margin-bottom: 20px;
+
+}
+.retro-content p{
+    font-size: large;
+    word-spacing: 5px;
+    font-family: cursive;
+    color: brown;
+}
+.special-foods img{
+    border: 10px solid brown;
+    border-radius: 7px;
+
+}
+.special-foods{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 10x;
+}
+.footre-links{
+    
+    margin: auto;
+    display: block;
+    list-style: none;
+    
+}
+.footre-links ul{
+    list-style: none;
+    display: flex;
+    
+    
+    
+}
+.placeholder{
+    background-color:white;
+    border-radius: 20px;
+    color: rgb(0, 0, 0) ;
+    font-weight: bolder;
+    padding: 10px;
+}
+.button{
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.delivary{
+   padding-top: 50px;
+   margin-left: 100px;
+   display: block;
+}
+.footer{
+    margin: 10px ;
+    border: 10px solid brown;
+    padding: 10px;
+    display: flex;
+}
+.footre-links a{
+    text-decoration: none;
+}
+/* For about section */
+.aboutmain{
+    height: 900px;
+    width: 1000px;
+    background-color: antiquewhite;
+    margin: auto;
+    border: 10px solid brown;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 250px;
+}
+.aboutmain h1{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+.aboutmain h2{
+    color: brown;
+}
+.aboutmain p{
+    color: brown;
+    font-size: 20px;
+}
+
+
+/* Menu section */
+.menumain{
+    background-color: bisque;
+    height: 1050px;
+    width: 750px;
+    border: 10px solid brown;
+    margin: 20px;
+    margin-left: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+   
+
+}
+.menumain img{
+    margin: auto;
+    display: block;
+}
+
+.menumain h1{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+
+}
+
+.menumain h2{
+    color: brown;
+    font-size: 30px;
+}
+.menumain p{
+    color: brown;
+    line-height: 30.5px;
+    font-size: 20px;
+    border-bottom: 3px black dashed;
+}
+
+/* mainlinks */
+.mainlinks{
+    display: block;
+    height: 400px;
+    width: 200px;
+    margin-left: 1100px;
+    margin-bottom: 700px;
+    position: relative;   
+}
+
+.mainlinks li{
+    list-style: none;
+    font-size: 30px;
+    color: green;
+}
+.mainlinks a{
+    text-decoration: none;
+    border-bottom: 5px black solid;
+  
+    
+}
+.mainlinks button{
+    padding: 8px;
+    background-color: red;
+    border-radius: 8px;
+    border: 10px blue bold;
+}
+.mainlinks h1{
+    font-size: 50px;
+    color: green;
+}
+
+/* Contact links */
+
+.contactmain{
+    background-color: bisque;
+    height: 1050px;
+    width: 750px;
+    border: 10px solid brown;
+    margin: 20px;
+    margin-left: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+}
+.contactmain p{
+    color: brown;
+    line-height: 40px;
+    font-size: 20px;
+}
+.contactmain input{
+    padding: 5px 60px;
+    display: block
+}
+.contactmain sub{
+    padding: 100px;
+}
+.contactmain button{
+    padding: 5px 40px;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.contactmain h1{
+    color: green;
+    font-style: italic;
+}
+
+.contactlinks{
+    display: block;
+    height: 400px;
+    width: 400px;
+    margin-left: 1000px;
+    margin-bottom: 700px;
+    position: relative;
+    padding: 20px;
+    padding-right: 100px;
+}
+.contactlinks h1{
+    color: green;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.contactlinks p{
+    color: brown;
+    font-size: 20px;
+}
+.contactlinks button{
+    padding: 5px 40px;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+/* Blog section */
+.bolg1{
+    height: 500px;
+    width: 400px;
+    border: 10px brown solid;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 300px;
+    border-radius: 10px;
+  
+}
+
+
+
+
+.blog2{
+    height: 500px;
+    width: 400px;
+    border: 10px brown solid;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 300px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+
+.blog3{
+    height: 500px;
+    width: 400px;
+    border: 10px brown solid;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 1000px;
+   margin-top: 100px;
+    border-radius: 10px;
+    position: relative;
+}
